@@ -1,0 +1,84 @@
+/* LoginForm.css */
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .login-input {
+    width: 100%; 
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .login-button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s;
+  }
+  
+  .login-button:hover {
+    background-color: #45a049;
+  }
+  
+  .error-message {
+    color: #ff0000;
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  
+  .close-icon {
+    color: #aaa;
+    cursor: pointer;
+    font-size: 28px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  .close-icon:hover {
+    color: #555;
+  }
+  
+
+  /* Your CSS file (e.g., RegistrationForm.css) */
+
+.registration-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .registration-input {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .registration-button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s;
+  }
+
+  

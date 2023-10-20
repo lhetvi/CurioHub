@@ -1,0 +1,32 @@
+.user-profile-box {
+     display: flex;
+  padding: 10px;
+  border: 1px solid lightgray;
+  background-color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  max-width: 700px;
+  margin: 50px auto;
+  }
+  
+  .feedBox{
+    max-width: 700px;
+    margin: 50px auto;
+  }
+  .user-profile-box__icon {
+    margin-right: 40px;
+  }
+  
+  .user-profile-box__info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .user-profile-box__name {
+    font-weight: bold;
+  }
+  
+  .user-profile-box__email {
+    color: #777;
+  }
+  
